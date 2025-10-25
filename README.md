@@ -20,7 +20,7 @@ Program napisany w języku C, który wyświetla nazwę za pomocą funkcji printf
 Aby skompilować program, w terminalu uruchom:
 
 ```bash
-clang-cl test.c
+clang-cl hello.c
 ````
 
 ---
@@ -30,7 +30,7 @@ clang-cl test.c
 Po kompilacji uruchom plik wykonywalny:
 
 ```bash
-test.exe
+hello.exe
 ```
 
 Program wyświetli napis od dwóch nowych linijek "hello Piotr".
@@ -40,7 +40,7 @@ Program wyświetli napis od dwóch nowych linijek "hello Piotr".
 ### Przykłady działania
 
 ```
-C:\Users\X\Desktop\homework>test.exe
+C:\Users\X\Desktop\homework>hello.exe
 hello
 Piotr
 ```
