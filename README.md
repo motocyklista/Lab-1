@@ -20,20 +20,8 @@ Program napisany w języku C, który klasyfikuje siłę wiatru według podanej p
 Aby skompilować program, w terminalu uruchom:
 
 ```bash
-clang -Wall zad1.c
+clang-cl test.c
 ````
-
-Podczas kompilacji może pojawić się ostrzeżenie:
-
-```
-warning: 'scanf' is deprecated: This function or variable may be unsafe. Consider using scanf_s instead.
-```
-
-Jest to normalne w środowisku Visual Studio. Możesz je zignorować lub użyć `scanf_s`. Aby wyłączyć ostrzeżenie, dodaj na początku pliku:
-
-```c
-#define _CRT_SECURE_NO_WARNINGS
-```
 
 ---
 
@@ -42,38 +30,29 @@ Jest to normalne w środowisku Visual Studio. Możesz je zignorować lub użyć 
 Po kompilacji uruchom plik wykonywalny:
 
 ```bash
-zad1.exe
+test.exe
 ```
 
-Program poprosi o podanie prędkości wiatru w m/s i zwróci klasę wiatru:
+Program wyświetli napis od dwóch nowych linijek "hello Piotr".
 
 ---
 
 ### Przykłady działania
 
 ```
-C:\Users\X\Desktop\homework>zad1.exe
-Podaj predkosc wiatru w m/s: 2
-B=1 (Light Air)
+C:\Users\X\Desktop\homework>test.exe
+hello
+Piotr
 ```
 
-```
-C:\Users\X\Desktop\homework>zad1.exe
-Podaj predkosc wiatru w m/s: 3
-B=2 (Light Breeze)
-```
+
 
 ---
 
 ## Działanie programu
 
-1. Program prosi użytkownika o podanie prędkości wiatru w **m/s**.
-2. Na podstawie wartości prędkości wiatru przypisuje klasę wiatru i nazwę według skali Beauforta.
-3. Wyświetla wynik w formacie:
+1. Po uruchomieniu program wyświetla napis, tj. podano w sekcji ### Przykłady działania.
 
-```
-B=<klasa> (<nazwa>)
-```
 
 ---
 
