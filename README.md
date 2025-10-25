@@ -1,4 +1,4 @@
-# Program: Program "Hello World"
+# Program: "Hello World"
 
 Program napisany w języku C, który klasyfikuje siłę wiatru według podanej prędkości w m/s. Program przypisuje klasę B i nazwę odpowiadającą standardowej skali Beauforta.
 
