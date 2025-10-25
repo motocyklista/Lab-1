@@ -8,7 +8,7 @@ Program napisany w języku C, który wyświetla nazwę za pomocą funkcji printf
 
 - **Język:** C  
 - **Edytor:** Microsoft Visual Studio Code  
-- **Kompilator:** Clang (`clang -Wall`)  
+- **Kompilator:** Clang
 - **System:** Windows  
 
 > 💡 Program skompilowany przy użyciu kompilatora Clang. Korzystałem z edytora MS Visual Studio Code.
