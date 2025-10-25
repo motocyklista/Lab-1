@@ -51,7 +51,7 @@ Piotr
 
 ## Działanie programu
 
-1. Po uruchomieniu program wyświetla napis, tj. podano w sekcji ### Przykłady działania.
+1. Po uruchomieniu program wyświetla napis, tj. podano w sekcji "### Przykłady działania".
 
 
 ---
